@@ -1,36 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="SHORTCUT ICON"
-      href="https://c.s-microsoft.com/favicon.ico?v2"
-      type="image/x-icon"
-    />
-    <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
-  </head>
-  <body>
-    <header>
-      <div class="md md:hidden">
-        <nav class="flex justify-between items-center h-14">
-          <div class="left flex justify-center items-center space-x-2">
-            <div class="hamburger-menu p-3 space-y-1 rounded cursor-pointer">
-              <span class="block w-6 h-0.5 bg-gray-800"></span>
-              <span class="block w-6 h-0.5 bg-gray-800"></span>
-              <span class="block w-6 h-0.5 bg-gray-800"></span>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="SHORTCUT ICON" href="https://c.s-microsoft.com/favicon.ico?v2" type="image/x-icon" />
+  <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
+</head>
+
+<body>
+  <header>
+    <div class="md md:hidden">
+      <nav class="flex justify-between items-center h-14">
+        <div class="left flex justify-center items-center space-x-2">
+          <div class="hamburger-menu p-3 space-y-1 rounded cursor-pointer">
+            <span class="block w-6 h-0.5 bg-gray-800"></span>
+            <span class="block w-6 h-0.5 bg-gray-800"></span>
+            <span class="block w-6 h-0.5 bg-gray-800"></span>
+          </div>
+          <div class="search cursor-pointer">
+            <img class="w-5 rotate-90" src="assets/search.svg" />
+          </div>
+        </div>
+        <div class="center cursor-pointer">
+          <img src="assets/logo.png" class="h-20" />
+        </div>
+        <div class="end flex space-x-8 m-2">
+          <div class="cart cursor-pointer">
+            <img src="assets/cart icon.svg" />
+          </div>
+          <div class="account cursor-pointer">
+            <img src="assets/account icon.svg" />
+          </div>
+        </div>
+      </nav>
+      <img class="w-full cursor-pointer" src="assets/ms.webp">
+      <div class="description bg-[#e8e8e8] h-[400px] p-auto cursor-pointer flex flex-col justify-center items-center">
+        <div class="name text-xl font-semibold">Surface Laptop 4</div>
+        <p class="px-24 text-center pb-2">Do it all with a perfect balance of sleek, ultra-thin design, multitasking
+          speed and improved performance</p>
+        <button class="bg-black text-white w-[130px] h-[40px] flex justify-center items-center">
+          <div class="shopnowbtn underline-offset-4 hover:underline decoration-2 mr-2 hover:mr-4">Shop now</div> >
+        </button>
+      </div>
+      <div class="buy p-[24px]">
+        <div class="first flex m-1 px-3 py-3 cursor-pointer">
+          <img src="assets/ic1.png" class="w-[20px] ">
+          <div class="content text-sm font-semibold pl-2 hover:underline ">Choose your Microsoft 365</div>
+        </div>
+        <div class="second flex m-1 px-3 py-3 cursor-pointer">
+          <img src="assets/ic2.webp" class="w-[20px] ">
+          <div class="content text-sm font-semibold pl-2 hover:underline ">Explore Surface devices</div>
+        </div>
+        <div class="third flex m-1 px-3 py-3 cursor-pointer">
+          <img src="assets/ic3.webp" class="w-[20px] ">
+          <div class="content text-sm font-semibold pl-2 hover:underline ">Buy Xbox games</div>
+        </div>
+        <div class="forth flex m-1 px-3 py-3 cursor-pointer">
+          <img src="assets/ic4.png" class="w-[20px] ">
+          <div class="content text-sm font-semibold pl-2 hover:underline ">Get Windows 11</div>
+        </div>
+      </div>
+    </div>
+    <div class="largedevices invisible md:visible">
+      <nav class="flex justify-between items-center h-14">
+        <div class="left flex justify-center items-center">
+          <img src="assets/logo.png" class="h-20 cursor-pointer" />
+          <ul class="flex space-x-2">
+            <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Microsoft 365</li>
+            <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Office</li>
+            <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Windows</li>
+            <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Surface</li>
+            <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Xbox</li>
+            <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Support</li>
+          </ul>
+        </div>
+        <div class="right flex justify-center items-center">
+          <div class="accordation m-3 underline-offset-4 text-sm hover:underline decoration-2">All Microsoft &#8964
+          </div>
+          <div class="icons flex space-x-4 m-4">
             <div class="search cursor-pointer">
               <img class="w-5 rotate-90" src="assets/search.svg" />
             </div>
-          </div>
-          <div class="center cursor-pointer">
-            <img src="assets/logo.png" class="h-20" />
-          </div>
-          <div class="end flex space-x-8 m-2">
             <div class="cart cursor-pointer">
               <img src="assets/cart icon.svg" />
             </div>
@@ -38,61 +92,43 @@
               <img src="assets/account icon.svg" />
             </div>
           </div>
-        </nav>
-        <img class="w-full cursor-pointer" src="assets/ms.webp" >
-        <div class="description bg-[#e8e8e8] h-[400px] p-auto cursor-pointer flex flex-col justify-center items-center">
+        </div>
+      </nav>
+      <div class="container flex bg-[#f4f4f4] space-x-10 mt-3">
+        <div class="left">
+          <div class="description cursor-pointer flex flex-col content-center ml-16 py-40">
             <div class="name text-xl font-semibold">Surface Laptop 4</div>
-            <p class="px-24 text-center pb-2">Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance</p>
-            <button class="bg-black text-white w-[130px] h-[40px] flex justify-center items-center"><div class="shopnowbtn underline-offset-4 hover:underline decoration-2 mr-2 hover:mr-4">Shop now</div> ></button>
+            <p class="py-4 text-sm">Do it all with a perfect balance of sleek, ultra-thin design, multitasking
+              speed and improved performance</p>
+              <button class="bg-black text-white w-[130px] h-[40px] flex justify-center items-center">
+                <div class="shopnowbtn underline-offset-4 hover:underline decoration-2 mr-2 hover:mr-4">Shop now</div> >
+              </button>
+          </div>
         </div>
-        <div class="buy p-[24px]">
-            <div class="first flex m-1 px-3 py-3 cursor-pointer">
-                <img src="assets/ic1.png" class="w-[20px] ">
-                <div class="content text-sm font-semibold pl-2 hover:underline ">Choose your Microsoft 365</div>
-            </div>
-            <div class="second flex m-1 px-3 py-3 cursor-pointer">
-                <img src="assets/ic2.webp" class="w-[20px] ">
-                <div class="content text-sm font-semibold pl-2 hover:underline ">Explore Surface devices</div>
-            </div>
-            <div class="third flex m-1 px-3 py-3 cursor-pointer">
-                <img src="assets/ic3.webp" class="w-[20px] ">
-                <div class="content text-sm font-semibold pl-2 hover:underline ">Buy Xbox games</div>
-            </div>
-            <div class="forth flex m-1 px-3 py-3 cursor-pointer">
-                <img src="assets/ic4.png" class="w-[20px] ">
-                <div class="content text-sm font-semibold pl-2 hover:underline ">Get Windows 11</div>
-            </div>
+        <div class="flex right w-full justify-center items-center">
+          <img src="assets/ms.webp">
         </div>
       </div>
-      <div class="largedevices invisible md:visible">
-        <nav class="flex justify-between items-center h-14">
-          <div class="left flex justify-center items-center">
-            <img src="assets/logo.png" class="h-20 cursor-pointer" />
-            <ul class="flex space-x-2">
-              <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Microsoft 365</li>
-              <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Office</li>
-              <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Windows</li>
-              <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Surface</li>
-              <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Xbox</li>
-              <li class="cursor-pointer underline-offset-4 text-sm hover:underline decoration-2">Support</li>
-            </ul>
-          </div>
-          <div class="right flex justify-center items-center">
-            <div class="accordation m-3 underline-offset-4 text-sm hover:underline decoration-2">All Microsoft &#8964</div>
-            <div class="icons flex space-x-4 m-4">
-              <div class="search cursor-pointer">
-                <img class="w-5 rotate-90" src="assets/search.svg" />
-              </div>
-              <div class="cart cursor-pointer">
-                <img src="assets/cart icon.svg" />
-              </div>
-              <div class="account cursor-pointer">
-                <img src="assets/account icon.svg" />
-              </div>
-            </div>
-          </div>
-        </nav>
+      <div class="buy p-[24px] flex justify-center items-center">
+        <div class="first flex flex-col justify-center items-center cursor-pointer">
+          <img src="assets/ic1.png" class="w-[40px] ">
+          <div class="content text-sm font-semibold text-center  pl-2 hover:underline w-[125px]">Choose your Microsoft 365</div>
+        </div>
+        <div class="second flex flex-col justify-center items-center cursor-pointer">
+          <img src="assets/ic2.webp" class="w-[40px] ">
+          <div class="content text-sm font-semibold  text-center pl-2 hover:underline w-[125px]">Explore Surface devices</div>
+        </div>
+        <div class="third flex flex-col justify-center items-center cursor-pointer">
+          <img src="assets/ic3.webp" class="w-[40px] ">
+          <div class="content text-sm font-semibold  text-center pl-2 hover:underline w-[125px]">Buy Xbox games</div>
+        </div>
+        <div class="forth flex flex-col justify-center items-center cursor-pointer">
+          <img src="assets/ic4.png" class="w-[40px] ">
+          <div class="content text-sm font-semibold text-center  pl-2 hover:underline w-[125px]">Get Windows 11</div>
+        </div>
       </div>
-    </header>
-  </body>
+    </div>
+  </header>
+</body>
+
 </html>
